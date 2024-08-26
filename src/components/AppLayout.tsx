@@ -16,7 +16,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
                 </div>
             </Content>
             <Footer style={{ textAlign: 'center', backgroundColor: '#800000', color: 'white', flexShrink: 0}}>
-                React Coding Assignment ©{new Date().getFullYear()} Avelios Medical
+                React Coding Assignment ©{new Date().getFullYear()}
             </Footer>
         </Layout>
     );
